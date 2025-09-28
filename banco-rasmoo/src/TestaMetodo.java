@@ -5,7 +5,7 @@ public class TestaMetodo {
         conta.depositar(300);
         conta.depositar(50.40);
 
-        boolean Saque = conta.sacar(650.4);
+        boolean Saque = conta.sacar(100);
         if ( Saque){
             System.out.println("Saque com sucesso");
         } else{
