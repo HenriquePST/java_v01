@@ -5,8 +5,14 @@ public class TestaMetodo {
         conta.depositar(300);
         conta.depositar(50.40);
 
-
+        boolean Saque = conta.sacar(650.4);
+        if ( Saque){
+            System.out.println("Saque com sucesso");
+        } else{
+            System.out.println("não foi possivel ");
+        }
         System.out.println(conta.saldo);
+
 
     }
 }
